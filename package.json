@@ -1,0 +1,11 @@
+{
+  "training_path": "sjtu-ee228-2020/train_val",
+  "label_path": "sjtu-ee228-2020/train_val_1.csv",
+  "test_path": "sjtu-ee228-2020/test",
+  "_comment_"    :  "The shape of the tensor feed into the network(namly HxW)",
+  "H"            :  256,
+  "W"            :  256,
+  "GPU"          :  "3",
+  "DEVICE"       :  "cuda",
+  "epoch"        :  100
+}

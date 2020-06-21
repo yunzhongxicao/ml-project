@@ -25,7 +25,7 @@ test_loader = data.DataLoader(testset,batch_size=1,shuffle=False)
 
 # optimizer = torch.nn.CrossEntropyLoss()
 # test_model = C3D()
-test_model = resnet.resnet18(sample_size=8,sample_duration=4)
+test_model = resnet.resnet10(sample_size=8,sample_duration=4)
 # test_model = resnet_v2.generate_model(model_depth=10)
 # test_model = vggnet_v1.vgg13_bn()
 test_model = test_model.to(DEVICE)
